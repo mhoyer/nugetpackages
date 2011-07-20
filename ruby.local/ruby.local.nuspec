@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ruby.local</id>
+    <version>1.9.2.136</version>
+    <title>Ruby</title>
+    <authors>Marcel Hoyer</authors>
+    <owners>Rob Reynolds</owners>
+    <licenseUrl>http://www.ruby-lang.org/en/about/license.txt</licenseUrl>
+    <projectUrl>http://www.ruby-lang.org</projectUrl>
+    <iconUrl>https://github.com/ferventcoder/nugetpackages/raw/master/ruby.local/ruby_logo.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Ruby - A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. 
+| This .local version will NOT use the installer, but the pure .zip archive. It might be more interesting for CI and deployment tasks. 
+| Please install with chocolatey (http://nuget.org/List/Packages/chocolatey).</description>
+    <summary>Ruby - A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</summary>
+    <tags>ruby chocolatey</tags>
+    <dependencies>
+      <dependency id="chocolatey" version="0.9.8.3" />
+    </dependencies>
+  </metadata>
+</package>
